@@ -20,7 +20,7 @@ class _TopMoviesDetalsPageState extends State<TopMoviesDetalsPage>
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        toolbarHeight: 0.0,
+        toolbarHeight: 0.0, // you can set this height
       ),
       body: SafeArea(
         child: ListView(
